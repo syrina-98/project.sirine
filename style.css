@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400;1,700&family=Pacifico&display=swap');
+* { 
+    font-family: 'Amiri';
+    box-sizing: border-box ;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+header {
+ display: flex;
+ justify-content: space-between ;
+ align-items: center;
+ background-color:#7caa49;
+ color: white;
+ padding:  0px 100px;
+ border-top: solid rgb(111, 165, 111)  5px;
+ position: fixed;
+ width: 100%;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+    margin-right: 10px ;
+    font-size: 20px;
+    transition: ease 1s;
+
+}
+
+header a:hover {
+    color: #405b51;
+    font-size: 25px;
+}
+
+.Hasabati {
+    height: 100vh;
+    display: flex ;
+    align-items: center;
+    color: white;
+    padding: 0px 80px;
+    background-size: cover;
+    background-image:url(img/Cover-Budget-100dt-1920.jpg) ;
+    background-attachment: fixed;
+    background-blend-mode: overlay;
+    background-color:rgb(0 , 0 , 0, ) ;
+    background-position: center;
+}
+
+.Hasabati span {
+    color:black;
+}
+
+.Hasabati h2 {
+    color:white ;
+}
+
+.Hasabati a {
+    color: white;
+    text-decoration: none ;
+    background-color: black;
+    padding: 10px;
+    border-radius: 0px 30px;
+    display: inline-block ;
+    margin-top: 10px;
+    font-size: 20px;
+    transition: ease 1s ;
+    
+}
+
+.Hasabati a:hover {
+    transform: scale(1.2);
+    font-size: 20px ;
+    background-color: black;
+}
